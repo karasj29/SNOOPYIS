@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(222, 99, 99);
+    
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #f7f5f5;
+    line-height: 1.1;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000; /* Snoopy-style black */
+    color: white;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Puts the menu in the middle */
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ff0000; /* A pop of Woodstock yellow or Red Baron red */
+}
+
+/* Give the sections some space so you can actually scroll */
+.content-section {
+    padding: 80px 40px;
+    min-height: 600px;
+    border-bottom: 1px solid #eee;
+}
+
+li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #f7f5f5;
+}
+section h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    color: #f7f5f5;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 40px;
+}
+.sub-one {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #f7f5f5;
+    line-height: 1.1;
+    text-align: center;
+    line-height: 2;
+    position-anchor: center;
+    max-width: 600px;  /* Limits the width */
+    margin-left: auto; /* Centers it */
+    margin-right: auto;
+    text-align: center; /* Centers the actual text inside the box */
+    line-height: 1.6;   /* Makes it easier to read */
+    padding-bottom: 120px; /* Adds some space below the subheading */
+}
+.sub-two {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: #f7f5f5;
+    line-height: 1.1;
+}
+.framedphoto {
+    /* 1px is the thickness, solid is the style, black is the color */
+    border: 10px solid black;
+}
+.summary {
+    font-size: 22px;
+}
+.list {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.summary-two {
+    margin-bottom: 65px;
+    font-size: 22px;
+
+}
+
+.tableau-container {
+    width: 100%;           /* Fills most of the screen on mobile */
+    max-width: 1425px;    /* Keeps it from getting too huge on desktop */
+    max-height: 700px;
+    margin: 50px auto;    /* Centers it and adds space above/below */
+    background: white;    /* Ensures no transparency issues */
+    border: 1px solid #ddd; /* Optional: a very thin border */
+    overflow: hidden;     /* Keeps the viz inside the lines */
+}
+.tableau-container .tableauPlaceholder 
+    /* This is the magic part */
+    zoom: 0.7;            /* Adjust this decimal until it fits (0.5 is half size) */
+    -moz-transform: scale(0.7); /* For Firefox support */
+    -moz-transform-origin:0 0;
+    
+.viz-wrapper {
+    max-width: 800px;
+    margin: 40px auto; /* Centers the whole block */
+    border: 2px solid black;
+    background-color: white;
+}
+
+/* DIV 2: Styling the top of the block */
+.viz-header {
+    background-color: #cc0000; /* Snoopy Red */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* DIV 3: Handling the Tableau fitting */
+.viz-body {
+    padding: 20px;
+    overflow: hidden; /* This prevents the corner-cut-off issue */
+}
+.Snoopoopy {
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000; /* Snoopy-style black */
+    color: rgb(244, 240, 240);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    z-index: 1000;
+}
+.footer {
+    height: 100px;
+    background-color: #000; /* Snoopy-style black */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.header {
+    height: 250px;
+    background-color: #000; /* Snoopy-style black */
+    color: white;
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+}
